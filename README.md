@@ -1,5 +1,5 @@
 
---> Install Redis-Plus-Plus Library
+1. Install Redis-Plus-Plus Library
 
 cd hiredis\
 make\
@@ -14,7 +14,7 @@ make\
 make install\
 cd ..
 
---> Install  Disruptor
+2. Install  Disruptor
 
 sudo apt-get install libboost-all-dev
 
@@ -22,7 +22,7 @@ mkdir build && cd build\
 cmake .. -DCMAKE_BUILD_TYPE=release\
 make
 
---> Build main.cpp
+3. Build main.cpp
 
 g++ -std=c++17 main.cpp -o main /usr/local/lib/libredis++.a /usr/local/lib/libhiredis.a /usr/local/lib/libDisruptor.a -lpthread -lboost_system -lboost_thread -fconcepts-ts -pthread -I${workspaceFolder}asio/include -g -DASIO_ENABLE_HANDLER_TRACKING
 
@@ -30,5 +30,5 @@ g++ -std=c++17 main.cpp -o main /usr/local/lib/libredis++.a /usr/local/lib/libhi
 + Run Nginx (localhost:80)
 + Start Redis (localhost:6379)
 
---> Run program  (-- Running on localhost:54545 --)\
+4. Run program  (-- Running on localhost:54545 --)\
 ./main
