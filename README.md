@@ -1,7 +1,7 @@
 
 --> Install Redis-Plus-Plus Library
 
-cd hiredis
+cd hiredis\
 make
 make install
 cd ..
