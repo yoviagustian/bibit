@@ -14,13 +14,13 @@ make\
 make install\
 cd ..
 
---> Install  Disruptor\
+--> Install  Disruptor
 
-sudo apt-get install libboost-all-dev\
+sudo apt-get install libboost-all-dev
 
 mkdir build && cd build\
 cmake .. -DCMAKE_BUILD_TYPE=release\
-make\
+make
 
 --> Build main.cpp
 
