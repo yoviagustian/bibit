@@ -1,12 +1,12 @@
 1. Install Redis-Plus-Plus Library
 
-git clone https://github.com/redis/hiredis.git\
+git clone https://github.com/redis/hiredis.git \
 cd hiredis\
 make\
 make install\
 cd ..
 
-git clone https://github.com/sewenew/redis-plus-plus.git\
+git clone https://github.com/sewenew/redis-plus-plus.git \
 cd redis-plus-plus\
 mkdir build\
 cd build\
@@ -19,7 +19,7 @@ cd ..
 
 sudo apt-get install libboost-all-dev
 
-git clone https://github.com/Abc-Arbitrage/Disruptor-cpp.git\
+git clone https://github.com/Abc-Arbitrage/Disruptor-cpp.git \
 cd Disruptor-cpp
 mkdir build && cd build\
 cmake .. -DCMAKE_BUILD_TYPE=release\
