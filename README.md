@@ -18,9 +18,13 @@ cd ..
 
 sudo apt-get install libboost-all-dev
 
+git clone https://github.com/Abc-Arbitrage/Disruptor-cpp.git
+cd Disruptor-cpp
 mkdir build && cd build\
 cmake .. -DCMAKE_BUILD_TYPE=release\
-make
+make\
+make install\
+cd ..
 
 3. Build main.cpp
 
